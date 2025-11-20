@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="/truckonway-logo.png" type="image/png" />
+    
+    <!-- Primary Meta Tags -->
+    <title>TruckOnWay - Professional Transportation & Logistics Services in India | Transporters Adda Pvt Ltd</title>
+    <meta name="title" content="TruckOnWay - Professional Transportation & Logistics Services in India | Transporters Adda Pvt Ltd">
+    <meta name="description" content="Leading transportation company in India offering Truck Booking, Freight Forwarding, Cargo Delivery & Logistics Solutions. Real-time GPS tracking, competitive pricing. Serving 500+ cities. Call +91-8307957320 for instant quotes.">
+    <meta name="keywords" content="truck booking, transportation services, freight forwarding, cargo delivery, logistics company India, goods transport, truck rental, supply chain management, warehouse services, door to door delivery, TruckOnWay, Transporters Adda, heavy vehicle transport, commercial vehicle hire">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Transporters Adda Pvt Ltd">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thetruckonway.github.io/">
+    <meta property="og:title" content="TruckOnWay - Professional Transportation & Logistics Services in India">
+    <meta property="og:description" content="Leading transportation company offering Truck Booking, Freight Forwarding, Cargo Delivery across 500+ cities. Real-time tracking, competitive rates.">
+    <meta property="og:site_name" content="TruckOnWay">
+    <meta property="og:locale" content="en_IN">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thetruckonway.github.io/">
+    <meta property="twitter:title" content="TruckOnWay - Professional Transportation Services">
+    <meta property="twitter:description" content="Leading transportation company offering Truck Booking, Freight Forwarding, and Logistics Solutions across India.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://thetruckonway.github.io/">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN">
+    <meta name="geo.placename" content="India">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Transporters Adda Pvt Ltd",
+      "alternateName": "TruckOnWay",
+      "@id": "https://thetruckonway.github.io/",
+      "url": "https://thetruckonway.github.io/",
+      "telephone": "+91-8307957320",
+      "email": "truckonway@gmail.com",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "500"
+      },
+      "sameAs": [
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #1e3a8a;
+            --primary-orange: #f97316;
+            --light-orange: #fed7aa;
+            --text-dark: #1a1a1a;
+            --text-light: #666;
+            --white: #ffffff;
+            --light-bg: #f8fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header with Logo */
+        header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            background: var(--primary-blue);
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        .logo-text h1 {
+            font-size: 1.8em;
+            color: var(--primary-blue);
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .logo-text p {
+            font-size: 0.9em;
+            color: var(--primary-orange);
+            margin: 0;
+        }
+
+        .header-cta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .cta-phone {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .cta-btn {
+            background: var(--primary-orange);
+            color: var(--white);
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: var(--primary-blue);
+            transform: translateY(-2px);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--primary-blue);
+            padding: 12px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            font-size: 0.95em;
+        }
+
+        nav a:hover {
+            color: var(--primary-orange);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #1e40af 100%);
+            color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn-primary {
+            background: var(--primary-orange);
+            color: var(--white);
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #ea580c;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(249, 115, 22, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            border: 2px solid var(--white);
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary-blue);
+        }
+
+        /* Trust Badges */
+        .trust-badges {
+            background: var(--light-orange);
+            padding: 40px 20px;
+        }
+
+        .badges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .badge-item {
+            padding: 20px;
+        }
+
+        .badge-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: var(--primary-blue);
+            display: block;
+        }
+
+        .badge-text {
+            color: var(--text-light);
+            font-size: 1.1em;
+            margin-top: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 20px;
+        }
+
+        .section-alt {
+            background: var(--light-bg);
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary-orange);
+            border-radius: 2px;
+        }
+
+        .section-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            font-size: 1.1em;
+            color: var(--text-light);
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            border-top: 4px solid var(--primary-orange);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(30, 58, 138, 0.15);
+        }
+
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            color: var(--primary-blue);
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .service-link {
+            color: var(--primary-orange);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 15px;
+            transition: all 0.3s;
+        }
+
+        .service-link:hover {
+            color: var(--primary-blue);
+            transform: translateX(5px);
+        }
+
+        /* CTA Banner */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary-orange) 0%, #ea580c 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 60px 20px;
+            margin: 60px 0;
+            border-radius: 12px;
+        }
+
+        .cta-banner h2 {
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+
+        .cta-banner h2::after {
+            background: var(--white);
+        }
+
+        /* Why Choose Us */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 30px;
+            background: var(--white);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            color: var(--primary-blue);
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--primary-orange);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+
+        .rating {
+            color: var(--primary-orange);
+            margin-bottom: 10px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: var(--primary-blue);
+            color: var(--white);
+            padding: 80px 20px;
+        }
+
+        .contact-section h2 {
+            color: var(--white);
+        }
+
+        .contact-section h2::after {
+            background: var(--primary-orange);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .contact-card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            color: var(--primary-orange);
+            margin-bottom: 15px;
+        }
+
+        .contact-card p {
+            font-size: 1.1em;
+        }
+
+        .contact-card a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-card a:hover {
+            color: var(--primary-orange);
+        }
+
+        /* Floating Buttons */
+        .floating-buttons {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 999;
+        }
+
+        .float-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+
+        .float-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+        }
+
+        .whatsapp-btn {
+            background: #25D366;
+        }
+
+        .call-btn {
+            background: var(--primary-orange);
+        }
+
+        .float-btn svg {
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-blue);
+            color: var(--white);
+            padding: 50px 20px 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h3 {
+            color: var(--primary-orange);
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 0.95em;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-orange);
+        }
+
+        .footer-section p {
+            margin-bottom: 8px;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.2);
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            .header-cta {
+                display: none;
+            }
+
+            .logo-text h1 {
+                font-size: 1.4em;
+            }
+
+            nav .container {
+                gap: 15px;
+            }
+
+            .services-grid,
+            .features-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="https://thetruckonway.github.io/" class="logo">
+                    <div class="logo-img">🚚</div>
+                    <div class="logo-text">
+                        <h1>TruckOnWay</h1>
+                        <p>Transporters Adda Pvt Ltd</p>
+                    </div>
+                </a>
+                <div class="header-cta">
+                    <a href="tel:+918307957320" class="cta-phone">📞 +91-8307957320</a>
+                    <a href="#contact" class="cta-btn">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>India's Most Trusted Transportation Partner</h2>
+            <p>Reliable Truck Booking, Freight Forwarding & Cargo Delivery Services Across 500+ Cities with Real-Time GPS Tracking</p>
+            <div class="hero-buttons">
+                <a href="tel:+918307957320" class="btn-primary">📞 Book Now</a>
+                <a href="#services" class="btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <div class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <span class="badge-number">15+</span>
+                    <span class="badge-text">Years Experience</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-number">10,000+</span>
+                    <span class="badge-text">Successful Deliveries</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-number">500+</span>
+                    <span class="badge-text">Cities Covered</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-number">24/7</span>
+                    <span class="badge-text">Customer Support</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Transportation Services</h2>
+            <p class="section-intro">Comprehensive logistics solutions designed for your business success</p>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Truck Booking Services</h3>
+                    <p>Quick and easy truck booking with a wide range of vehicle options. From mini trucks to multi-axle trailers for all cargo sizes.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>Freight Forwarding</h3>
+                    <p>Efficient domestic and international freight forwarding ensuring timely delivery across major cities, ports, and industrial hubs.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🗺️</div>
+                    <h3>Route Optimization</h3>
+                    <p>Advanced route planning using AI technology to reduce costs, fuel consumption, and delivery time while ensuring cargo safety.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Live GPS Tracking</h3>
+                    <p>Real-time GPS tracking of your shipments with instant updates. Monitor your cargo 24/7 from pickup to delivery.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h3>Industrial Logistics</h3>
+                    <p>Specialized transportation for heavy machinery, industrial equipment, and raw materials with proper handling and safety measures.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Secure Transport</h3>
+                    <p>Safe and secure transportation with comprehensive insurance coverage, professional handling, and verified driver network.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Supply Chain Solutions</h3>
+                    <p>End-to-end supply chain management including warehousing, inventory management, and distribution services.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>E-commerce Logistics</h3>
+                    <p>Specialized logistics for e-commerce businesses with fast delivery, reverse logistics, and multi-city distribution.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🚛</div>
+                    <h3>Part Load Services</h3>
+                    <p>Cost-effective part load transportation for smaller shipments. Share truck space and save on transportation costs.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <div class="cta-banner">
+        <div class="container">
+            <h2>Need Transportation Services Today?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">Get instant quote and book your truck in minutes. 24/7 support available!</p>
+            <div class="hero-buttons">
+                <a href="tel:+918307957320" class="btn-primary" style="background: var(--primary-blue);">📞 Call +91-8307957320</a>
+                <a href="https://wa.me/918307957320" class="btn-secondary">💬 WhatsApp Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="section-alt">
+        <div class="container">
+            <h2>Why Choose TruckOnWay</h2>
+            <p class="section-intro">Your satisfaction is our priority. Here's why businesses trust us</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>On-Time Delivery</h3>
+                    <p>98% on-time delivery rate with committed delivery schedules and real-time tracking</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Best rates in the industry with transparent pricing. No hidden charges or surprise fees</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast Booking</h3>
+                    <p>Book trucks instantly through our app or website. Get confirmed booking in under 5 minutes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Insured Cargo</h3>
+                    <p>Comprehensive cargo insurance coverage for complete peace of mind during transit</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Verified Drivers</h3>
+                    <p>All drivers thoroughly verified with background checks and professional training</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📞</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support team ready to assist with any queries or concerns</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Pan-India Network</h3>
+                    <p>Extensive network covering 500+ cities across India for seamless connectivity</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Well-Maintained Fleet</h3>
+                    <p>Regular vehicle maintenance and safety checks ensuring reliability and safety</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <p class="section-intro">Trusted by thousands of businesses across India</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"TruckOnWay has been our go-to logistics partner for 3 years. Their real-time tracking and on-time delivery have significantly improved our supply chain efficiency. Highly recommended!"</p>
+                    <p class="testimonial-author">— Rajesh Malhotra, Manufacturing CEO</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Excellent service! We use TruckOnWay for all our e-commerce deliveries. Their rates are competitive and the GPS tracking feature gives us complete visibility of our shipments."</p>
+                    <p class="testimonial-author">— Priya Sharma, E-commerce Founder</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Reliable, professional, and efficient. TruckOnWay handled our heavy machinery transport with utmost care. Their team coordinated everything perfectly. Will definitely use again!"</p>
+                    <p class="testimonial-author">— Amit Patel, Construction Company Owner</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-alt">
+        <div class="container">
+            <h2>About Transporters Adda Pvt Ltd</h2>
+            <p class="section-intro">TruckOnWay is the flagship brand of Transporters Adda Pvt Ltd, a leading transportation and logistics company with over 15 years of industry experience. We specialize in providing comprehensive freight solutions across India, serving businesses of all sizes from startups to large enterprises.</p>
+            <p class="section-intro">Our mission is to revolutionize the transportation industry through technology-driven solutions, transparent pricing, and exceptional customer service. With a network spanning 500+ cities and a fleet of 5000+ verified vehicles, we ensure your cargo reaches its destination safely and on time, every time.</p>
+            <p class="section-intro">We pride ourselves on building long-term partnerships based on trust, reliability, and mutual growth. Our commitment to excellence has helped us serve over 10,000 successful deliveries and earn the trust of thousands of satisfied clients across various industries.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-intro" style="color: white;">Ready to experience hassle-free transportation? Contact us today for instant quotes!</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>📞 Call Us</h3>
+                    <p><a href="tel:+918307957320">+91-8307957320</a></p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Available 24/7 for bookings</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>✉️ Email Us</h3>
+                    <p><a href="mailto:truckonway@gmail.com">truckonway@gmail.com</a></p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Response within 2 hours</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>💬 WhatsApp</h3>
+                    <p><a href="https://wa.me/918307957320">+91-8307957320</a></p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Chat for instant support</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📍 Head Office</h3>
+                    <p>Transporters Adda Pvt Ltd</p>
+                    <p>Jind - Kaithal Road, Industrial Area, Kaithal, Haryana 136027</p>
+                    <p>India</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="tel:+918307957320" class="btn-primary">Get Free Quote Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About TruckOnWay</h3>
+                    <p>Leading transportation and logistics company providing reliable freight solutions across India. Part of Transporters Adda Pvt Ltd.</p>
+                    <p style="margin-top: 20px;">
+                        <a href="https://wa.me/918307957320" style="display: inline-block; background: #25D366; padding: 10px 20px; border-radius: 5px; margin-top: 10px; font-weight: 600;">💬 WhatsApp Us</a>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services">Truck Booking</a></li>
+                        <li><a href="#services">Freight Forwarding</a></li>
+                        <li><a href="#services">Route Optimization</a></li>
+                        <li><a href="#services">GPS Tracking</a></li>
+                        <li><a href="#services">Industrial Logistics</a></li>
+                        <li><a href="#services">Supply Chain Solutions</a></li>
+                        <li><a href="#services">E-commerce Logistics</a></li>
+                        <li><a href="#services">Part Load Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><strong>📞 Phone:</strong><br>
+                    <a href="tel:+918307957320" style="color: white;">+91-8307957320</a></p>
+                    
+                    <p style="margin-top: 15px;"><strong>✉️ Email:</strong><br>
+                    <a href="mailto:truckonway@gmail.com" style="color: white;">truckonway@gmail.com</a><br>
+                    
+                    <p style="margin-top: 15px;"><strong>🕒 Operating Hours:</strong><br>
+                    24/7 Service Available<br>
+                    Mon-Sun: All Day</p>
+                    
+                    <p style="margin-top: 15px;"><strong>📍 Head Office:</strong><br>
+                    Transporters Adda Pvt Ltd<br>
+                    Jind - Kaithal Road, Industrial Area, Kaithal, Haryana 136027</p>
+
+                    <p style="margin-top: 15px;"><strong>📍 Other Address:</strong><br>
+                    TruckOnway<br>
+                    Jind - Kaithal Road, Near Reliance and Bharat petrol pump, Kaithal, Haryana 136027</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Transporters Adda Pvt Ltd. All Rights Reserved.</p>
+                <p style="margin-top: 10px;">TruckOnWay - Your Trusted Transportation Partner | Professional Logistics Solutions</p>
+                <p style="margin-top: 10px; font-size: 0.9em;">Serving 500+ cities across India | 10,000+ successful deliveries | 24/7 customer support</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/918307957320?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20transportation%20services" 
+           target="_blank" 
+           class="float-btn whatsapp-btn" 
+           aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+        </a>
+        <a href="tel:+918307957320" 
+           class="float-btn call-btn" 
+           aria-label="Call us">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+            </svg>
+        </a>
+    </div>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card, .feature-card, .testimonial-card, .contact-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Active nav highlight on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section[id]');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.style.color = '#ffffff';
+                const href = link.getAttribute('href').substring(1);
+                if (href === current) {
+                    link.style.color = '#f97316';
+                }
+            });
+        });
+
+        // Add animation to trust badges on load
+        window.addEventListener('load', () => {
+            const badges = document.querySelectorAll('.badge-number');
+            badges.forEach((badge, index) => {
+                setTimeout(() => {
+                    badge.style.opacity = '0';
+                    badge.style.transform = 'scale(0.5)';
+                    badge.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        badge.style.opacity = '1';
+                        badge.style.transform = 'scale(1)';
+                    }, 100);
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>
