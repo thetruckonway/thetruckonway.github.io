@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="icon" href="/truckonway-logo.png" type="image/png" />
+    <link rel="icon" href="truckonway-logo.png" type="image/png" />
     
     <!-- Primary Meta Tags -->
     <title>TruckOnWay - Professional Transportation & Logistics Services in India | Transporters Adda Pvt Ltd</title>
@@ -63,8 +63,7 @@
         "ratingValue": "4.7",
         "reviewCount": "500"
       },
-      "sameAs": [
-      ]
+      "sameAs": []
     }
     </script>
 
@@ -76,13 +75,14 @@
         }
 
         :root {
-            --primary-blue: #1e3a8a;
-            --primary-orange: #f97316;
-            --light-orange: #fed7aa;
+            --primary-blue: #1a73e8;
+            --primary-dark: #0d0d0d;
+            --accent-blue: #4a9eff;
+            --light-blue: #e3f2fd;
             --text-dark: #1a1a1a;
             --text-light: #666;
             --white: #ffffff;
-            --light-bg: #f8fafc;
+            --light-bg: #f5f7fa;
         }
 
         body {
@@ -129,14 +129,14 @@
 
         .logo-text h1 {
             font-size: 1.8em;
-            color: var(--primary-blue);
+            color: var(--primary-dark);
             font-weight: 700;
             margin: 0;
         }
 
         .logo-text p {
             font-size: 0.9em;
-            color: var(--primary-orange);
+            color: var(--primary-blue);
             margin: 0;
         }
 
@@ -154,7 +154,7 @@
         }
 
         .cta-btn {
-            background: var(--primary-orange);
+            background: var(--primary-blue);
             color: var(--white);
             padding: 12px 25px;
             border-radius: 25px;
@@ -164,13 +164,13 @@
         }
 
         .cta-btn:hover {
-            background: var(--primary-blue);
+            background: var(--primary-dark);
             transform: translateY(-2px);
         }
 
         /* Navigation */
         nav {
-            background: var(--primary-blue);
+            background: var(--primary-dark);
             padding: 12px 0;
         }
 
@@ -190,12 +190,12 @@
         }
 
         nav a:hover {
-            color: var(--primary-orange);
+            color: var(--accent-blue);
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #1e40af 100%);
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #1a1a1a 100%);
             color: var(--white);
             padding: 80px 20px;
             text-align: center;
@@ -224,7 +224,7 @@
         }
 
         .btn-primary {
-            background: var(--primary-orange);
+            background: var(--primary-blue);
             color: var(--white);
             padding: 15px 35px;
             border-radius: 30px;
@@ -235,9 +235,9 @@
         }
 
         .btn-primary:hover {
-            background: #ea580c;
+            background: var(--accent-blue);
             transform: translateY(-3px);
-            box-shadow: 0 5px 20px rgba(249, 115, 22, 0.4);
+            box-shadow: 0 5px 20px rgba(26, 115, 232, 0.4);
         }
 
         .btn-secondary {
@@ -254,12 +254,12 @@
 
         .btn-secondary:hover {
             background: var(--white);
-            color: var(--primary-blue);
+            color: var(--primary-dark);
         }
 
         /* Trust Badges */
         .trust-badges {
-            background: var(--light-orange);
+            background: var(--light-blue);
             padding: 40px 20px;
         }
 
@@ -297,7 +297,7 @@
         }
 
         h2 {
-            color: var(--primary-blue);
+            color: var(--primary-dark);
             font-size: 2.5em;
             margin-bottom: 20px;
             text-align: center;
@@ -313,7 +313,7 @@
             transform: translateX(-50%);
             width: 80px;
             height: 4px;
-            background: var(--primary-orange);
+            background: var(--primary-blue);
             border-radius: 2px;
         }
 
@@ -339,12 +339,12 @@
             border-radius: 12px;
             box-shadow: 0 3px 15px rgba(0,0,0,0.08);
             transition: all 0.3s;
-            border-top: 4px solid var(--primary-orange);
+            border-top: 4px solid var(--primary-blue);
         }
 
         .service-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 8px 30px rgba(30, 58, 138, 0.15);
+            box-shadow: 0 8px 30px rgba(26, 115, 232, 0.2);
         }
 
         .service-icon {
@@ -353,13 +353,13 @@
         }
 
         .service-card h3 {
-            color: var(--primary-blue);
+            color: var(--primary-dark);
             font-size: 1.5em;
             margin-bottom: 15px;
         }
 
         .service-link {
-            color: var(--primary-orange);
+            color: var(--primary-blue);
             text-decoration: none;
             font-weight: 600;
             display: inline-block;
@@ -368,13 +368,13 @@
         }
 
         .service-link:hover {
-            color: var(--primary-blue);
+            color: var(--accent-blue);
             transform: translateX(5px);
         }
 
         /* CTA Banner */
         .cta-banner {
-            background: linear-gradient(135deg, var(--primary-orange) 0%, #ea580c 100%);
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-blue) 100%);
             color: var(--white);
             text-align: center;
             padding: 60px 20px;
@@ -417,7 +417,7 @@
         }
 
         .feature-card h3 {
-            color: var(--primary-blue);
+            color: var(--primary-dark);
             font-size: 1.3em;
             margin-bottom: 10px;
         }
@@ -435,7 +435,7 @@
             padding: 35px;
             border-radius: 12px;
             box-shadow: 0 3px 15px rgba(0,0,0,0.08);
-            border-left: 4px solid var(--primary-orange);
+            border-left: 4px solid var(--primary-blue);
         }
 
         .testimonial-text {
@@ -447,17 +447,17 @@
 
         .testimonial-author {
             font-weight: 700;
-            color: var(--primary-blue);
+            color: var(--primary-dark);
         }
 
         .rating {
-            color: var(--primary-orange);
+            color: #fbbf24;
             margin-bottom: 10px;
         }
 
         /* Contact Section */
         .contact-section {
-            background: var(--primary-blue);
+            background: var(--primary-dark);
             color: var(--white);
             padding: 80px 20px;
         }
@@ -467,7 +467,7 @@
         }
 
         .contact-section h2::after {
-            background: var(--primary-orange);
+            background: var(--primary-blue);
         }
 
         .contact-grid {
@@ -485,7 +485,7 @@
         }
 
         .contact-card h3 {
-            color: var(--primary-orange);
+            color: var(--accent-blue);
             margin-bottom: 15px;
         }
 
@@ -500,7 +500,7 @@
         }
 
         .contact-card a:hover {
-            color: var(--primary-orange);
+            color: var(--accent-blue);
         }
 
         /* Floating Buttons */
@@ -536,7 +536,7 @@
         }
 
         .call-btn {
-            background: var(--primary-orange);
+            background: var(--primary-blue);
         }
 
         .float-btn svg {
@@ -547,7 +547,7 @@
 
         /* Footer */
         footer {
-            background: var(--primary-blue);
+            background: var(--primary-dark);
             color: var(--white);
             padding: 50px 20px 30px;
         }
@@ -560,7 +560,7 @@
         }
 
         .footer-section h3 {
-            color: var(--primary-orange);
+            color: var(--accent-blue);
             margin-bottom: 20px;
             font-size: 1.3em;
         }
@@ -582,7 +582,7 @@
         }
 
         .footer-section a:hover {
-            color: var(--primary-orange);
+            color: var(--accent-blue);
         }
 
         .footer-section p {
@@ -779,7 +779,7 @@
             <h2>Need Transportation Services Today?</h2>
             <p style="font-size: 1.2em; margin-bottom: 30px;">Get instant quote and book your truck in minutes. 24/7 support available!</p>
             <div class="hero-buttons">
-                <a href="tel:+918307957320" class="btn-primary" style="background: var(--primary-blue);">📞 Call +91-8307957320</a>
+                <a href="tel:+918307957320" class="btn-primary" style="background: var(--primary-dark);">📞 Call +91-8307957320</a>
                 <a href="https://wa.me/918307957320" class="btn-secondary">💬 WhatsApp Now</a>
             </div>
         </div>
@@ -860,6 +860,7 @@
                     <p class="testimonial-text">"Reliable, professional, and efficient. TruckOnWay handled our heavy machinery transport with utmost care. Their team coordinated everything perfectly. Will definitely use again!"</p>
                     <p class="testimonial-author">— Amit Patel, Construction Company Owner</p>
                 </div>
+            </div>
         </div>
     </section>
 
@@ -956,7 +957,7 @@
                     <a href="tel:+918307957320" style="color: white;">+91-8307957320</a></p>
                     
                     <p style="margin-top: 15px;"><strong>✉️ Email:</strong><br>
-                    <a href="mailto:truckonway@gmail.com" style="color: white;">truckonway@gmail.com</a><br>
+                    <a href="mailto:truckonway@gmail.com" style="color: white;">truckonway@gmail.com</a></p>
                     
                     <p style="margin-top: 15px;"><strong>🕒 Operating Hours:</strong><br>
                     24/7 Service Available<br>
@@ -1052,7 +1053,7 @@
                 link.style.color = '#ffffff';
                 const href = link.getAttribute('href').substring(1);
                 if (href === current) {
-                    link.style.color = '#f97316';
+                    link.style.color = '#4a9eff';
                 }
             });
         });
